@@ -1,0 +1,152 @@
+* {
+  font-family: Arial, "Free Sans", "Nimbus Sans", Helvetica, sans-serif;
+}
+
+.menu_pane, .game_pane {
+  position: fixed;
+  padding: 0;
+  margin: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: stretch;
+}
+
+.menu_text {
+  text-align: center;
+  font-size: 200%;
+  font-weight: bold;
+}
+
+.menu_buttons, .game_menu_pane, .game_menu_buttons, .question_pane {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: stretch;
+}
+
+.menu_button, .go_back_button {
+  padding: 3px 15px;
+  font-size: 150%;
+  min-width: 8%;
+}
+
+.instruction_pane {
+  text-align: center;
+}
+
+.game_result_pane {
+  font-size: 250%;
+  font-weight: bold;
+  border: 2px solid #777;
+  padding: 3px 15px;
+  text-align: center;
+  background-color: #bbd;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: stretch;
+}
+
+.game_image_pane {
+  border: 2px solid #777;
+  margin: 0px;
+  padding: 0px;
+  background-color: #fafafa;
+  min-width: 244px;
+  min-height: 244px;
+}
+
+.target_pane {
+  font-size: 350%;
+  font-weight: bold;
+  border: 3px solid #777;
+  background-color: black;
+  color: white;
+  padding: 5px 20px;
+  min-width: 8%;
+  text-align: center;
+}
+
+.target_pane.correct_answer {
+  color: #0f0;
+  border: 3px solid #0f0;
+}
+
+.target_pane.incorrect_answer {
+  color: #f00;
+  border: 3px solid #f00;
+}
+
+.option_button {
+  font-size: 300%;
+  border: 2px solid #777;
+  padding: 3px 15px;
+  min-width: 8%;
+  text-align: center;
+}
+
+.option_button[clicked="1"] {
+  background-color: #555;
+  color: white;
+}
+
+.option_button.correct_answer {
+  background-color: #0f0 !important;
+  border: #3f3 solid 2px !important;
+}
+
+.option_button.incorrect_answer {
+  background-color: #f00 !important;
+  border: #f33 solid 2px !important;
+}
+
+.ok_button {
+  font-size: 300%;
+  border: 2px solid #886;
+  background-color: #bb3;
+  padding: 3px 15px;
+  min-width: 8%;
+  text-align: center;
+}
+
+.box_correct {
+  width: 20px;
+  height: 20px;
+  min-width: 20px;
+  min-height: 20px;
+  border: 1px solid #3a3;
+  background-color: #0f0;
+  margin: 1px;
+  display: inline-block;
+}
+
+.box_incorrect {
+  width: 20px;
+  height: 20px;
+  min-width: 20px;
+  min-height: 20px;
+  border: 1px solid #a33;
+  background-color: #f00;
+  margin: 1px;
+  display: inline-block;
+}
+
+button {
+  border: 2px solid #778;
+  background-color: #dde;
+  color: #005;
+}
+
+button:hover, button:focus {
+  border: 2px dashed #335;
+}
+
+body {
+  background-color: #eef;
+}
