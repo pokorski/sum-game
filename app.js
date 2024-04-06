@@ -67,7 +67,6 @@ var prepare_question = function(difficulty){
 
 var prepare_image_pane = function(pane, count) {
   var images = [
-    /*
     [  2, 'tree.png' ],
     [  4, 'sun.png' ],
     [  7, 'heart.png' ],
@@ -83,24 +82,6 @@ var prepare_image_pane = function(pane, count) {
     [ 80, 'cherries.png' ],
     [ 90, 'snail.png' ],
     [100, '100.png' ]
-    */
-
-    [  1, 'tree.png' ],
-    [  2, 'sun.png' ],
-    [  3, 'heart.png' ],
-    [  4, 'star.png' ],
-    [  5, 'happy.png' ],
-    [  6, 'flower.png' ],
-    [  7, 'baloon.png' ],
-    [  8, 'cloud.png' ],
-    [  9, 'plus_minus.png' ],
-    [ 10, 'house.png' ],
-    [ 11, 'fish.png' ],
-    [ 12, 'cube.png' ],
-    [ 13, 'cherries.png' ],
-    [ 14, 'snail.png' ],
-    [ 16, '100.png' ]
-
   ]
 
   pane.html('');
